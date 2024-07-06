@@ -1,0 +1,39 @@
+*body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: rgb(213, 242, 255);
+}
+h2 {
+    text-align: center;
+}
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2f6432;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5fd164;
+}
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
